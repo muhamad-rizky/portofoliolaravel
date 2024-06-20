@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+     float: right;
+    
+}
+nav li { 
+    list-style:none;
+    float:left;
+    padding: 30px 40px;
+    margin-right: 200px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    font-size: 15px;
+    font-weight: 10px;
+    background-color: rgb(10, 8, 8);
+
+}
+
+.head{
+    background-color: #f8bb39;
+}
+
+.header-right {
+    float: left;
+    font-size: 30px;
+    padding: 20px;
+    color:rgb(35, 35, 27);
+    
+}
+
+body{
+    background-image: url(https://i.pinimg.com/474x/a7/80/0b/a7800b5b967972b28d60b2a574a31326.jpg);
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    /* width: auto;
+    display: flex;
+    padding-left: 250px;
+    margin-right: 10%; */
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+/* css index */
+
+/* .img-profile {
+    border-radius: 100%;
+    width: 200px;
+    padding-top: 20px;
+
+} */
+
+.profile {
+    text-align: center;
+    padding-left: 20px; 
+    padding-top: 150px;
+    letter-spacing: 3px;
+    position: absolute;
+    font-size: xx-large;
+    
+
+}
+
+.header-right span {
+    color: #d6d0d0;
+    font-size: 10px;
+}
+
+.profile h1 {
+    /* margin: 10px; */
+    color: #eaeaea;
+}
+
+.profile h2 {
+    /* margin-right: 20px; */
+    color: rgb(20, 20, 26);
+}
+
+.profile p {
+    /* margin-right: 20px; */
+    color: rgb(0, 0, 0);
+}
+
+.contact {
+    margin-top: 20px;
+    padding-left: 500px; 
+}
+
+.button {
+    float: left;
+    margin-top: 150px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 350px;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    box-shadow: 0 0 10px #efeeee;
+    transition: 0.3s;
+    color: rgb(240, 24, 240);
+    background-color: rgb(18, 17, 18);
+}
+
+/* .instagram {
+    padding-left: 250px;
+    display: flex;
+    padding-top: 175px;
+} */
+
+/*  responsive untuk android */
+@media screen and(max-width:680px) {
+    .button {
+        justify-content: center;
+    }
+}
+    .profile{
+        width: 100%;
+        margin-bottom: 20px ;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    main .top-wrapper {
+        display: block;
+    }
